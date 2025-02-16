@@ -1,0 +1,19 @@
+@import url(./basic-styles.css);
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 150px);
+  grid-template-rows: repeat(3, 150px);
+  border: 10px solid #010101;
+  border-radius: 4px;
+  height: 500px;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* justify-content: space-evenly; */
+  /* align-content: space-evenly; */
+}
+
+.item-4 {
+  justify-self: stretch;
+  align-self: stretch;
+}
