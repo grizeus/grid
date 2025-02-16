@@ -1,0 +1,7 @@
+@import url(./basic-styles.css);
+
+.container {
+  display: grid;
+  border: 10px solid #010101;
+  grid-template-columns: repeat(auto-fit, 150px);
+}
